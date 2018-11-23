@@ -39,7 +39,7 @@ a{
 	width: 950px;
 	margin: 0 auto;
 }
-#header{
+.header{
 	background-image: url(../images/bg_1.png);
 	background-repeat: repeat;
 	height: 669px;
@@ -63,35 +63,35 @@ a{
 	bottom: 300px;
 	
 }
-#ipad {
+.ipad {
 	position:absolute;
 	top: 174px;
 	left: 190px;
 	z-index: 1;
 }
-#imac{
+.imac{
 	position: absolute;
 	top: 57px;
 	left: 371px;
 }
-#iphone{
+.iphone{
 	position: absolute;
 	top: 271px;
 	left: 771px;
 }
-#slogan{
+.slogan{
 	top: 500px;
 	left: 205px;
 	position: absolute;
 }
-#slogan span{
+.slogan span{
 	font-family: 'Bebas'; 
 	font-size: 24px;
 	line-height: 22px;
 	text-transform: uppercase;
 	color: #3a3a3a;
 }
-#slogan span.mark{
+.slogan span.mark{
 	color: #8cb53c;
 }
 .input{
@@ -178,25 +178,25 @@ a{
 	left: 80px;
 	bottom: 50px;
 }
-#img_icon{
+.img_icon{
 	
 }
-#row2_1{
+.row2_1{
 	position: relative;
 }
-#search [type=text]{
+.search [type=text]{
 	width: 900px;
 	height: 52px;
 	background-color: #f6f6f6;
 	border-radius: 10px;
 	margin: 10px;
 }
-#search [value]{
+.search [value]{
 	font-family: 'Helvetica Neue Regular';
 	font-size: 14px;
 	color: #848484;
 }
-#sing input[type=submit]{
+.sing input[type=submit]{
 	width: 120px;
 	height: 52px;
 	background-color: #8eaf30;
@@ -205,7 +205,7 @@ a{
 	left: 792px;
 	bottom: 65px;
 }
-#sing [value]{
+.sing [value]{
 	font-family: 'Helvetica Neue Cyr';
 	font-size: 14px;
 	color: #ffffff;
@@ -229,7 +229,7 @@ a{
 	position: relative;
 	
 }
-#quotes{
+.quotes{
 	position: relative;
 	margin-right: 20px;
 } 
@@ -258,7 +258,7 @@ a{
 	width: 1200px;
 	position: relative;
 }
-#img_all{
+.img_all{
 	position: relative;
 	top: 60px;
 }
@@ -270,31 +270,31 @@ a{
 .slogan2 span{
 	color: #88b138;
 }
-#footer{
+.footer{
 
 }
-#footercontent{
+.footercontent{
 	padding-top:25px;
 	padding-bottom: 55px;
 
 }
-#menu li{
+.menu li{
 	float: left;
 	display: inline-block;
 	top: 20px;
 }
-#menu span{
+.menu span{
 	color: #88b138;
 	padding-right: 5px;
 }
-#link ul{
+.link ul{
 	list-style: none;
 }
-#link li{
+.link li{
 	float: right;
 	padding: 5px;
 }
-#link ul li a{
+.link ul li a{
 	display: block;
 	width: 37px;
 	height: 37px;
@@ -316,9 +316,13 @@ a{
 	background-image: url(../images/pt.png);
 	background-repeat: no-repeat;
 }
-#last{
+.last{
 	padding-top: 25px;
 	padding-bottom: 40px;
+}
+.last span{
+	color: #88b138;
+	padding-right: 5px;
 }
 #l{
 	float: left;
@@ -326,8 +330,3 @@ a{
 #r{
 	float: right;
 }
-#last span{
-	color: #88b138;
-	padding-right: 5px;
-}
-
